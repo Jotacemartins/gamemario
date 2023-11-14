@@ -36,7 +36,7 @@ const restartGame = () => {
 
 const jump = () => {
   mario.classList.add('jump')
-  audioJump.play(); q
+  audioJump.play(); 
 
   setTimeout(() => {
     mario.classList.remove('jump')
